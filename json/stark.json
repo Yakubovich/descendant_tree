@@ -1,0 +1,191 @@
+{
+  "name": "Benjen Stark",
+  "bio":"Lord of Winterfell and head of House Stark. He married Lady Lysa Locke, with whom he had two sons",
+  "image":"images/fictional/lord.png",
+  "children":[
+    {
+      "name":"Rickon Stark",
+      "bio":" Lord of Winterfell and head of House Stark. The eldest son of Lord Benjen Stark and Lady Lysa Locke. He married Lady Gilliane Glover and had one son.",
+      "image":"images/fictional/lord.png",
+      "children":[
+        {
+          "name":"Cregan Stark",
+          "image":"images/fictional/lord.png",
+          "bio":"Lord of Winterfell, Warden of the North, and head of House Stark. He briefly served as Hand of the King for Aegon III Targaryen after the Dance of the Dragons.",
+          "children":[
+            {
+              "name":"Rickon Stark",
+              "bio":"Eldest son of Lord Cregan Stark & Lady Arra Norrey. Married Lady Jeyne Manderly. Fought under Targaryen banner during the Conquest of Dorne. His death outside of Sunspear in one of the final battles was lamented in the North for years due to trouble that dogged his half brothers' reigns.",
+              "children": [
+                {
+                  "name":"Serena Stark",
+                  "source":"json/stark_edric.json"
+                },
+                {
+                  "name":"Sansa Stark"
+                }
+              ]
+            },
+            {
+              "name":"Jonnel Stark",
+              "image":"images/fictional/lord.png",
+              "bio":"Known as One-Eye was a Lord of Winterfell and head of House Stark. The second son of Lord Cregan Stark, first by his last wife Lynara Stark. Was married twice, to Robyn Ryswell and his niece Sansa Stark, but neither marriage had issue, so his brother Barth Blacksword followed him as Lord of Winterfell."
+            },
+            {
+              "name":"Edric Stark",
+              "bio":"The third son of Lord Cregan Stark, second by his last wife Lynara Stark. He was married to Serena Stark, the daughter of his half-brother Rickon Stark, they had four children; twin sons Cregard and Torrhen, and two daughters Aregelle and Arrana Stark.",
+              "source":"json/stark_edric.json"
+            },
+            {
+              "name":"Lyanna Stark",
+              "bio":"The only daughter of Cregan Stark and Lady Lynara Stark",
+              "isFemale":true
+            },
+            {
+              "name":"Barthogan Stark",
+              "image":"images/fictional/lord.png",
+              "bio":"Better known as Barth Blacksword. The fourth born son of Lord Cregan Stark, the third by his last wife Lady Lynara Stark. Barth became Lord of Winterfell and head of House Stark after the death of his brother Lord Jonnel Stark with no issue. He was killed when Skagosi rose up against Winterfell. Barth is entombed in the crypts of Winterfell."
+            },
+            {
+              "name":"Brandon Stark",
+              "image":"images/fictional/lord.png",
+              "bio":"Lord of Winterfell and head of House Stark. He was the youngest son of Lord Cregan Stark and Lady Lynara Stark. Became Lord of Winterfell after two of his older brothers. Was married to Lady Alys Karstark, with whom he had three children; Rodwell, Beron and Arsa Stark. He also had a bastard son Lonnel Snow with Lady Wylla Fenn.",
+              "children":[
+                {
+                  "name":"Rodwell Stark",
+                  "image":"images/fictional/lord.png",
+                  "bio":"Lord of Winterfell and head of House Stark. The eldest son of Lord Brandon Stark and Lady Alys Karstark. He married Lady Myriame Manderly, but had no issue, his brother Beron followed him as Lord of Winterfell."
+                },
+                {
+                  "name":"Arsa Stark",
+                  "isFemale":true
+                },
+                {
+                  "name":"Beron Stark",
+                  "image":"images/fictional/lord.png",
+                  "bio":"Became Lord of Winterfell after his brother's death during the reign of King Aerys I. Gathered swords to throw Lord Dagon Greyjoy's ironmen back into the sea and made common cause with the Lord of Casterly Rock for it. He was mortally wounded in the ensuing clash, and House Stark faced a crisis of succession.",
+                  "children":[
+                    {
+                      "name":"Donnor Stark",
+                      "bio":"Lord of Winterfell and head of House Stark. He was the eldest son of Lord Beron Stark. His brother Willam Stark followed him as Lord of Winterfell because Donnor died without issue.",
+                      "image":"images/fictional/lord.png"
+                    },
+                    {
+                      "name":"Willam Stark",
+                      "bio":"Became Lord of Winterfell after the death of his older brother. Married Lady Melantha Blackwood and Lady Lyanne Glover. When Raymun Redbeard went over the Wall, Lord Willam called his banners and marched with Lord Harmond Umber. Killed and beheaded during the battle at Long Lake in 226 AC. His brother, Artos, avenged him by slaying Raymun.",
+                      "image":"images/fictional/lord.png",
+                      "children":[
+                        {
+                          "name":"Brandon Stark"
+                        },
+                        {
+                          "name":"Edwyle Stark",
+                          "image":"images/fictional/lord.png",
+                          "bio":"Lord of Winterfell and head of House Stark. The only son of Lord Willam Stark and Lady Melantha Blackwood. Edwyle married Lady Marna Locke and had only one child; Rickard. Edwyle was buried in the crypt of Winterfell. There is a statue of him placed with his tomb.",
+                          "children":[
+                            {
+                              "image":"images/fictional/stark_rickard.jpg",
+                              "name":"Rickard Stark",
+                              "source":"json/stark_rickard.json",
+                              "bio":"Lord of Winterfell and head of House Stark during the reign of Aerys II Targaryen. He was the only child of Lord Edwyle Stark and Lady Marna Locke."
+                            }
+                          ]
+                        },
+                        {
+                          "name":"Jocelyn Royce",
+                          "isFemale":true,
+                          "children":[
+                            {
+                              "name":"House Royce",
+                              "image":"http://awoiaf.westeros.org/images/thumb/c/cf/House_Royce_of_the_Gates_of_the_Moon.png/250px-House_Royce_of_the_Gates_of_the_Moon.png"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name":"Artos Stark",
+                      "bio":"Known as Artos the Implacable. 3rd son of Lord Beron Stark and Lady Lorra Royce. Marched north with his brother Lord Willam when King-Beyond-the-Wall Raymun Redbeard went over the Wall. Slew Raymun during the battle, ending the wildling threat.",
+                      "children":[
+                        {
+                          "name":"Brandon Stark"
+                        },
+                        {
+                          "name":"Benjen Stark"
+                        }
+                      ]
+                    },
+                    {
+                      "name":"Rodrick Stark",
+                      "bio":"Known as the Wandering Wolf, was a member of House Stark, the fifth son and youngest child of Lord Beron Stark and Lady Lorra Royce. He married Arya Flint of the mountain clans and had two daughters; Branda and Lyarra Stark. Rodrik served with the Second Sons, a sellsword company.",
+                      "children":[
+                        {
+                          "name":"Lyarra Stark",
+                          "bio":"The second daughter of Rodrik Stark and Arya Flint. She was married to her cousin Lord Rickard Stark",
+                          "image":"images/fictional/stark_lyarra.jpg",
+                          "source":"json/stark_rickard.json"
+                        },
+                        {
+                          "name":"Branda Stark",
+                          "isFemale":true
+                        }
+                      ]
+                    },
+                    {
+                      "name":"Berena Stark",
+                      "isFemale":true
+                    },
+                    {
+                      "name":"Alysanne Stark",
+                      "isFemale":true
+                    },
+                    {
+                      "name":"Brandon Stark"
+                    },
+                    {
+                      "name":"Errold Stark"
+                    }
+                  ]
+                },
+                {
+                  "name":"Lonnel Snow"
+                }
+              ]
+            },
+            {
+              "name":"Sarra Stark",
+              "isFemale":true
+            },
+            {
+              "name":"Alys Stark",
+              "isFemale":true
+            },
+            {
+              "name":"Raya Stark",
+              "isFemale":true
+            },
+            {
+              "name":"Mariah Stark",
+              "isFemale":true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name":"Bennard Stark",
+      "bio":"Married Margaret Karstark, with whom he had three sons",
+      "children":[
+        {
+          "name":"Benjen"
+        },
+        {
+          "name":"Brandon"
+        },
+        {
+          "name":"Elric"
+        }
+      ]
+    }
+  ]
+}

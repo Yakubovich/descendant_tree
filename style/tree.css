@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+}
+
+#bio {
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: 99;
+  padding: 25px;
+  font-family: "Georgia";
+  font-size: 18px;
+  max-width: 850px;
+  line-height: 1.4;
+  text-align: justify;
+  background:rgba(0,0,0,.8);
+  color: white;
+  display: none;
+  box-sizing: border-box;
+  pointer-events:none;
+}
+
+#bio.has-image {
+  padding-left: 210px;
+  min-height: 175px;
+}
+
+#bio img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 175px;
+  width: 175px;
+}
+
+#bio a {
+  text-decoration: none;
+  color: white;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.overlay{
+    background-color: #F7F4F0;
+}
+ 
+.node circle {
+  fill: #fff;
+  stroke: ##E6E2DD;
+  stroke-width: 1.5px;
+}
+ 
+.node text {
+  font-size:11px; 
+  font-weight: bold;
+  font-family: "Georgia";
+  color: #4D3636;
+}
+ 
+.link {
+  fill: none;
+  stroke: #E6E2DD;
+  stroke-width: 1.5px;
+}
+
+.ghostCircle.show{
+    display:block;
+}
+
+.ghostCircle, .activeDrag .ghostCircle{
+     display: none;
+}
+

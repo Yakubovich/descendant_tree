@@ -1,0 +1,46 @@
+{
+  "children":[
+    {
+      "name":"Brandon Stark",
+      "bio":"oldest son of Lord Rickard Stark and Lady Lyarra Stark and the heir to Winterfell prior to Robert's Rebellion. Murdered by King Aerys II Targaryen."
+    },
+    {
+      "name":"Eddard Stark",
+      "image":"images/fictional/stark_ned.jpg",
+      "children":[
+        {
+          "name":"Robb Stark",
+          "image":"images/fictional/stark_rob.png"
+        },
+        {
+          "name":"Sansa Stark",
+          "image":"images/fictional/stark_sansa.jpg"
+        },
+        {
+          "name":"Arya Stark",
+          "image":"images/fictional/stark_arya.jpg"
+        },
+        {
+          "name":"Bran Stark",
+          "image":"images/fictional/stark_bran.png"
+        },
+        {
+          "name":"Rickon Stark",
+          "image":"images/fictional/stark_rickon.jpg"
+        },
+        {
+          "name":"Jon Snow",
+          "image":"images/fictional/stark_jon.jpg"
+        }
+      ]
+    },
+    {
+      "name":"Lyanna Stark",
+      "image":"images/fictional/stark_lyanna.jpg"
+    },
+    {
+      "name":"Benjen Stark",
+      "image":"images/fictional/stark_benjen.png"
+    }
+  ]
+}
