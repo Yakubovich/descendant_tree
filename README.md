@@ -9,8 +9,14 @@ Example:
 - http://ilyayakubovich.com/descendant_tree/#stark
 - http://ilyayakubovich.com/descendant_tree/book.html#stark
 
+You have to run this from a server (can't just open the HTML file). The easiest way to do this, if you have python installed, is to run
+
+  python -m SimpleHTTPServer
+  
+this will start a python server at 0.0.0.0:8000
+
 Use #sourcename to load a specific JSON file.
-  - For example, 0.0.0.0:8000#stark loads json/stark.json
+  - 0.0.0.0:8000#stark loads json/stark.json
 
 Trees are stored in a simple JSON format, and repeating portions can be handled using the "source"
 attribute.
