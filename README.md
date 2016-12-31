@@ -4,6 +4,10 @@ Click on a node to expand/collapse all descendants.
 
 Also includes a family book that shows the same data in a different format (see book.html).
 
+Example: 
+http://ilyayakubovich.com/descendant_tree/#stark
+http://ilyayakubovich.com/descendant_tree/book.html#stark
+
 Use #sourcename to load a specific JSON file.
   - For example, 0.0.0.0:8000#stark loads json/stark.json
 
