@@ -158,6 +158,12 @@ function drawTree(treeData) {
         updateTempConnector();
     };
 
+	function clickChildren(d) {
+		if (d3.event.defaultPrevented) return; // click suppressed
+		d = toggleChildren(d);
+		update(d);
+    };
+
     function centerNode(source) {
         scale = zoomListener.scale();
         x = -source.y0;
@@ -184,10 +190,10 @@ function drawTree(treeData) {
     }
 
     // Toggle children on click.
-    function click(d) {
+    function clickPerson(d) {
         if (d3.event.defaultPrevented) return; // click suppressed
-        d = toggleChildren(d);
-        update(d);
+        //d = toggleChildren(d);
+        //update(d);
         centerNode(d);
     }
 
@@ -240,14 +246,11 @@ function drawTree(treeData) {
                 else
                   return "translate(" + source.y0 + "," + source.x0 + ")";
             })
-            .on('click', click);
+			.on('click', clickPerson);
 
         nodeEnter.append("circle")
-                 .attr('class', 'nodeCircle')
-                 .attr("r", 0)
-                 .style("fill", function(d) {
-                   return d._children ? "lightsteelblue" : "#fff";
-                 });
+			.attr('class', 'childrenCircle')
+			.on("click", clickChildren);
 
         if (vertical) {
           nodeEnter.append("text")
@@ -323,10 +326,15 @@ function drawTree(treeData) {
             });
 
         // Change the circle fill depending on whether it has children and is collapsed
-        node.select("circle.nodeCircle")
-            .attr("r", 10)
-            .style("fill", function(d) {
-                return d._children ? "lightsteelblue" : "#fff";
+		node.select("circle.childrenCircle")
+            .attr("class", function(d) {
+				if (d.children)
+					return "childrenCircle children__visible";
+
+				if (d._children)
+					return "childrenCircle children__collapsed";
+
+				return "childrenCircle noChildren";
             });
 
         // Transition nodes to their new position.
