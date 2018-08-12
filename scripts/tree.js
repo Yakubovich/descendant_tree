@@ -149,15 +149,6 @@ function drawTree(treeData) {
         }
     }
 
-    var overCircle = function(d) {
-        selectedNode = d;
-        updateTempConnector();
-    };
-    var outCircle = function(d) {
-        selectedNode = null;
-        updateTempConnector();
-    };
-
     function centerNode(source) {
         scale = zoomListener.scale();
         x = -source.y0;
@@ -281,20 +272,6 @@ function drawTree(treeData) {
                  .attr("y", -13)
                  .attr("width", 25)
                  .attr("height", 25);
-
-        // phantom node to give us mouseover in a radius around it
-        nodeEnter.append("circle")
-            .attr('class', 'ghostCircle')
-            .attr("r", 30)
-            .attr("opacity", 0.2) // change this to zero to hide the target area
-        .style("fill", "red")
-            .attr('pointer-events', 'mouseover')
-            .on("mouseover", function(node) {
-                overCircle(node);
-            })
-            .on("mouseout", function(node) {
-                outCircle(node);
-            });
 
         node.select('image').attr("xlink:href", function(d) {
           if (d.image)
