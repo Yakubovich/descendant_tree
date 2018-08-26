@@ -47,11 +47,27 @@ body {
 }
  
 .node circle {
-  fill: #fff;
   stroke: #E6E2DD;
   stroke-width: 1.5px;
 }
- 
+
+.childrenCircle {
+	r: 10;
+	transform: translateX(10px);
+}
+
+.noChildren {
+	display: none;
+}
+
+.children__visible {
+	fill: white;
+}
+
+.children__collapsed {
+	fill: lightsteelblue;
+}
+
 .node text {
   font-size:11px; 
   font-weight: bold;
