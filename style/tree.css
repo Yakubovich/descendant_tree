@@ -52,7 +52,6 @@ body {
 }
 
 .childrenCircle {
-	r: 10;
 	transform: translateX(10px);
 }
 
