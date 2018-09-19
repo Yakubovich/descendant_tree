@@ -249,6 +249,7 @@ function drawTree(treeData) {
 			.on('click', clickPerson);
 
         nodeEnter.append("circle")
+			.attr("r", 10)
 			.attr('class', 'childrenCircle')
 			.on("click", clickChildren);
 
